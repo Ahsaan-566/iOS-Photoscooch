@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0303283D1F9D3A2100334C4D /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0303283C1F9D3A2100334C4D /* SignInViewController.swift */; };
+		0303283F1F9D3EEE00334C4D /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0303283E1F9D3EEE00334C4D /* RegisterViewController.swift */; };
+		032DDC891F97BFA00081F37A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032DDC881F97BFA00081F37A /* AppDelegate.swift */; };
+		032DDC8B1F97BFA00081F37A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032DDC8A1F97BFA00081F37A /* ViewController.swift */; };
+		032DDC8E1F97BFA00081F37A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 032DDC8C1F97BFA00081F37A /* Main.storyboard */; };
+		032DDC901F97BFA00081F37A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 032DDC8F1F97BFA00081F37A /* Assets.xcassets */; };
+		032DDC931F97BFA00081F37A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 032DDC911F97BFA00081F37A /* LaunchScreen.storyboard */; };
+		032DDC9E1F97BFA00081F37A /* Photo_scoochTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032DDC9D1F97BFA00081F37A /* Photo_scoochTests.swift */; };
+		032DDCA91F97BFA00081F37A /* Photo_scoochUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032DDCA81F97BFA00081F37A /* Photo_scoochUITests.swift */; };
+		24D514BD1FA304C8009B497E /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D514BC1FA304C8009B497E /* HomePageViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		032DDC9A1F97BFA00081F37A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 032DDC7D1F97BFA00081F37A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 032DDC841F97BFA00081F37A;
+			remoteInfo = "Photo-scooch";
+		};
+		032DDCA51F97BFA00081F37A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 032DDC7D1F97BFA00081F37A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 032DDC841F97BFA00081F37A;
+			remoteInfo = "Photo-scooch";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0303283C1F9D3A2100334C4D /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		0303283E1F9D3EEE00334C4D /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		032DDC851F97BFA00081F37A /* Photo-scooch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Photo-scooch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		032DDC881F97BFA00081F37A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		032DDC8A1F97BFA00081F37A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		032DDC8D1F97BFA00081F37A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		032DDC8F1F97BFA00081F37A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		032DDC921F97BFA00081F37A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		032DDC941F97BFA00081F37A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		032DDC991F97BFA00081F37A /* Photo-scoochTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Photo-scoochTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		032DDC9D1F97BFA00081F37A /* Photo_scoochTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo_scoochTests.swift; sourceTree = "<group>"; };
+		032DDC9F1F97BFA00081F37A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		032DDCA41F97BFA00081F37A /* Photo-scoochUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Photo-scoochUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		032DDCA81F97BFA00081F37A /* Photo_scoochUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo_scoochUITests.swift; sourceTree = "<group>"; };
+		032DDCAA1F97BFA00081F37A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24D514BC1FA304C8009B497E /* HomePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		032DDC821F97BFA00081F37A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		032DDC961F97BFA00081F37A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		032DDCA11F97BFA00081F37A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		032DDC7C1F97BFA00081F37A = {
+			isa = PBXGroup;
+			children = (
+				032DDC871F97BFA00081F37A /* Photo-scooch */,
+				032DDC9C1F97BFA00081F37A /* Photo-scoochTests */,
+				032DDCA71F97BFA00081F37A /* Photo-scoochUITests */,
+				032DDC861F97BFA00081F37A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		032DDC861F97BFA00081F37A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				032DDC851F97BFA00081F37A /* Photo-scooch.app */,
+				032DDC991F97BFA00081F37A /* Photo-scoochTests.xctest */,
+				032DDCA41F97BFA00081F37A /* Photo-scoochUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		032DDC871F97BFA00081F37A /* Photo-scooch */ = {
+			isa = PBXGroup;
+			children = (
+				032DDC881F97BFA00081F37A /* AppDelegate.swift */,
+				032DDC8A1F97BFA00081F37A /* ViewController.swift */,
+				032DDC8C1F97BFA00081F37A /* Main.storyboard */,
+				032DDC8F1F97BFA00081F37A /* Assets.xcassets */,
+				032DDC911F97BFA00081F37A /* LaunchScreen.storyboard */,
+				032DDC941F97BFA00081F37A /* Info.plist */,
+				0303283C1F9D3A2100334C4D /* SignInViewController.swift */,
+				0303283E1F9D3EEE00334C4D /* RegisterViewController.swift */,
+				24D514BC1FA304C8009B497E /* HomePageViewController.swift */,
+			);
+			path = "Photo-scooch";
+			sourceTree = "<group>";
+		};
+		032DDC9C1F97BFA00081F37A /* Photo-scoochTests */ = {
+			isa = PBXGroup;
+			children = (
+				032DDC9D1F97BFA00081F37A /* Photo_scoochTests.swift */,
+				032DDC9F1F97BFA00081F37A /* Info.plist */,
+			);
+			path = "Photo-scoochTests";
+			sourceTree = "<group>";
+		};
+		032DDCA71F97BFA00081F37A /* Photo-scoochUITests */ = {
+			isa = PBXGroup;
+			children = (
+				032DDCA81F97BFA00081F37A /* Photo_scoochUITests.swift */,
+				032DDCAA1F97BFA00081F37A /* Info.plist */,
+			);
+			path = "Photo-scoochUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		032DDC841F97BFA00081F37A /* Photo-scooch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 032DDCAD1F97BFA00081F37A /* Build configuration list for PBXNativeTarget "Photo-scooch" */;
+			buildPhases = (
+				032DDC811F97BFA00081F37A /* Sources */,
+				032DDC821F97BFA00081F37A /* Frameworks */,
+				032DDC831F97BFA00081F37A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Photo-scooch";
+			productName = "Photo-scooch";
+			productReference = 032DDC851F97BFA00081F37A /* Photo-scooch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		032DDC981F97BFA00081F37A /* Photo-scoochTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 032DDCB01F97BFA00081F37A /* Build configuration list for PBXNativeTarget "Photo-scoochTests" */;
+			buildPhases = (
+				032DDC951F97BFA00081F37A /* Sources */,
+				032DDC961F97BFA00081F37A /* Frameworks */,
+				032DDC971F97BFA00081F37A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				032DDC9B1F97BFA00081F37A /* PBXTargetDependency */,
+			);
+			name = "Photo-scoochTests";
+			productName = "Photo-scoochTests";
+			productReference = 032DDC991F97BFA00081F37A /* Photo-scoochTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		032DDCA31F97BFA00081F37A /* Photo-scoochUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 032DDCB31F97BFA00081F37A /* Build configuration list for PBXNativeTarget "Photo-scoochUITests" */;
+			buildPhases = (
+				032DDCA01F97BFA00081F37A /* Sources */,
+				032DDCA11F97BFA00081F37A /* Frameworks */,
+				032DDCA21F97BFA00081F37A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				032DDCA61F97BFA00081F37A /* PBXTargetDependency */,
+			);
+			name = "Photo-scoochUITests";
+			productName = "Photo-scoochUITests";
+			productReference = 032DDCA41F97BFA00081F37A /* Photo-scoochUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		032DDC7D1F97BFA00081F37A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = 2pleb;
+				TargetAttributes = {
+					032DDC841F97BFA00081F37A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					032DDC981F97BFA00081F37A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 032DDC841F97BFA00081F37A;
+					};
+					032DDCA31F97BFA00081F37A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 032DDC841F97BFA00081F37A;
+					};
+				};
+			};
+			buildConfigurationList = 032DDC801F97BFA00081F37A /* Build configuration list for PBXProject "Photo-scooch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 032DDC7C1F97BFA00081F37A;
+			productRefGroup = 032DDC861F97BFA00081F37A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				032DDC841F97BFA00081F37A /* Photo-scooch */,
+				032DDC981F97BFA00081F37A /* Photo-scoochTests */,
+				032DDCA31F97BFA00081F37A /* Photo-scoochUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		032DDC831F97BFA00081F37A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032DDC931F97BFA00081F37A /* LaunchScreen.storyboard in Resources */,
+				032DDC901F97BFA00081F37A /* Assets.xcassets in Resources */,
+				032DDC8E1F97BFA00081F37A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		032DDC971F97BFA00081F37A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		032DDCA21F97BFA00081F37A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		032DDC811F97BFA00081F37A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032DDC8B1F97BFA00081F37A /* ViewController.swift in Sources */,
+				032DDC891F97BFA00081F37A /* AppDelegate.swift in Sources */,
+				0303283D1F9D3A2100334C4D /* SignInViewController.swift in Sources */,
+				24D514BD1FA304C8009B497E /* HomePageViewController.swift in Sources */,
+				0303283F1F9D3EEE00334C4D /* RegisterViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		032DDC951F97BFA00081F37A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032DDC9E1F97BFA00081F37A /* Photo_scoochTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		032DDCA01F97BFA00081F37A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032DDCA91F97BFA00081F37A /* Photo_scoochUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		032DDC9B1F97BFA00081F37A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 032DDC841F97BFA00081F37A /* Photo-scooch */;
+			targetProxy = 032DDC9A1F97BFA00081F37A /* PBXContainerItemProxy */;
+		};
+		032DDCA61F97BFA00081F37A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 032DDC841F97BFA00081F37A /* Photo-scooch */;
+			targetProxy = 032DDCA51F97BFA00081F37A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		032DDC8C1F97BFA00081F37A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				032DDC8D1F97BFA00081F37A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		032DDC911F97BFA00081F37A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				032DDC921F97BFA00081F37A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		032DDCAB1F97BFA00081F37A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		032DDCAC1F97BFA00081F37A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		032DDCAE1F97BFA00081F37A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Photo-scooch/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pleb.Photo-scooch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		032DDCAF1F97BFA00081F37A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Photo-scooch/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pleb.Photo-scooch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		032DDCB11F97BFA00081F37A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Photo-scoochTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pleb.Photo-scoochTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Photo-scooch.app/Photo-scooch";
+			};
+			name = Debug;
+		};
+		032DDCB21F97BFA00081F37A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Photo-scoochTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pleb.Photo-scoochTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Photo-scooch.app/Photo-scooch";
+			};
+			name = Release;
+		};
+		032DDCB41F97BFA00081F37A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Photo-scoochUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pleb.Photo-scoochUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Photo-scooch";
+			};
+			name = Debug;
+		};
+		032DDCB51F97BFA00081F37A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Photo-scoochUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pleb.Photo-scoochUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Photo-scooch";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		032DDC801F97BFA00081F37A /* Build configuration list for PBXProject "Photo-scooch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				032DDCAB1F97BFA00081F37A /* Debug */,
+				032DDCAC1F97BFA00081F37A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		032DDCAD1F97BFA00081F37A /* Build configuration list for PBXNativeTarget "Photo-scooch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				032DDCAE1F97BFA00081F37A /* Debug */,
+				032DDCAF1F97BFA00081F37A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		032DDCB01F97BFA00081F37A /* Build configuration list for PBXNativeTarget "Photo-scoochTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				032DDCB11F97BFA00081F37A /* Debug */,
+				032DDCB21F97BFA00081F37A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		032DDCB31F97BFA00081F37A /* Build configuration list for PBXNativeTarget "Photo-scoochUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				032DDCB41F97BFA00081F37A /* Debug */,
+				032DDCB51F97BFA00081F37A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 032DDC7D1F97BFA00081F37A /* Project object */;
+}
